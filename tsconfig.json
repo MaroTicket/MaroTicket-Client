@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "target": "ES6",
+    "target": "ES5",
     "strict": true,
     "jsx": "preserve",
     "noUnusedLocals": true,
@@ -10,18 +10,9 @@
     "noEmit": true,
     "baseUrl": "./",
     "paths": {
-      "@pages/*": [
-        "src/pages/*"
-      ],
-      "@containers/*": [
-        "src/containers/*"
-      ],
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@types/*": [
-        "src/types/*"
-      ],
+      "@/*": [
+        "src/*"
+      ]
     }
   },
   "include": [
