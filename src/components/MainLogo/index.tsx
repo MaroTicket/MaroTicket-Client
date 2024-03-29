@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 
-export default function MainLogo() {
+interface MainLogoProps {
+  className?: string;
+}
+
+export default function MainLogo({ className }: MainLogoProps) {
   return (
-    <h1 className='bg-main-logo h-8 w-32 bg-no-repeat'>
+    <h1 className={`${className} bg-main-logo bg-contain bg-center bg-no-repeat`}>
       <Link className='block h-full w-full' to='/'>
         <span className='sr-only'>마로티켓</span>
       </Link>
