@@ -1,4 +1,13 @@
-function App() {
-  return <div className='bg-red-50'>Hello World</div>;
-}
+import { createBrowserRouter } from 'react-router-dom';
+
+import Layout from '@/containers/layout';
+
+const App = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout />,
+    children: []
+  }
+]);
+
 export default App;
