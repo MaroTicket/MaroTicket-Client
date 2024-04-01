@@ -34,13 +34,13 @@ export default function Header() {
           <h2 className='sr-only'>메인 메뉴</h2>
           <ul className='mt-5 flex justify-center gap-8'>
             <li>
-              <Link to='/plays/current'>현재 상연작</Link>
+              <Link to='/play/current'>현재 상연작</Link>
             </li>
             <li>
-              <Link to='/plays/upcoming'>상연 예정작</Link>
+              <Link to='/play/upcoming'>상연 예정작</Link>
             </li>
             <li>
-              <Link to='/plays/past'>지난 상연작</Link>
+              <Link to='/play/past'>지난 상연작</Link>
             </li>
           </ul>
         </div>
