@@ -7,7 +7,7 @@ module.exports = {
         'maro-red': '#CF392C'
       },
       backgroundImage: {
-        'main-logo': 'url("../public/images/logo.png")'
+        'main-logo': 'url("./assets/images/logo.png")'
       }
     }
   },

@@ -14,6 +14,18 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader', 'postcss-loader']
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[name][ext]'
+        },
+        parser: {
+          dataUrlCondition: {
+            maxSize: 20 * 1024
+          }
+        }
       }
     ]
   },

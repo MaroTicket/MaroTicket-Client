@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "typeRoots": [
+      "src/types"
+    ],
     "incremental": true,
     "target": "ES5",
     "strict": true,
@@ -20,6 +23,7 @@
     "**/*.tsx",
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "src/assets"
   ]
 }
