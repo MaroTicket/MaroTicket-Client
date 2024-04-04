@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function LinkedBanner() {
   return (
     <div className='mt-8 px-5 text-center'>
-      <ul className='inline-flex w-2/3 justify-center gap-6 rounded-md p-5 shadow-xl'>
+      <ul className='inline-flex w-1/3 justify-center gap-6 rounded-md p-5 shadow-xl'>
         <li className='relative p-5 after:absolute after:-right-3 after:top-0 after:block after:h-full after:w-[1px] after:bg-gray-300 after:content-[""]'>
           <Link to='play/current'>
             <span className='flex flex-col'>

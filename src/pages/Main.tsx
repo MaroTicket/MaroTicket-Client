@@ -1,5 +1,5 @@
-import LinkedBanner from '@/components/LinkedBanner';
-import MainSlider from '@/components/MainSlide';
+import LinkedBanner from '@/components/main/LinkedBanner';
+import MainSlider from '@/components/main/MainSlider';
 
 export default function Main() {
   return (

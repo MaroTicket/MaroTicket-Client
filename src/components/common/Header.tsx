@@ -1,4 +1,4 @@
-import MainLogo from '@/components/MainLogo';
+import Logo from '@/components/common/Logo';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -8,7 +8,7 @@ export default function Header() {
       <div className=''>
         <div className='flex justify-between border-b px-64 py-5'>
           <h2 className='sr-only'>로그인 메뉴</h2>
-          <MainLogo className='w-48' />
+          <Logo className='w-48' />
           <ul className='flex gap-10 opacity-80'>
             <li>
               <Link className='inline-flex flex-col items-center' to='/user/login'>
